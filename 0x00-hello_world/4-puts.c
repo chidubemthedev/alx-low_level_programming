@@ -3,7 +3,8 @@
 /**
  * main - entry point
  *
- * function puts: outputs the inserted string
+ * Return - 0 (success)
+ *
  * return - 0 (success)
  */
 
