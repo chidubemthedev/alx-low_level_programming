@@ -4,7 +4,7 @@
  * main - entry point
  *
  * function puts: outputs the inserted string
- * return: 0 (success)
+ * return - 0 (success)
  */
 
 int main(void)
