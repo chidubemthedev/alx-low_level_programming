@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - entry point for the program
  *
- * Return - 0 (success)
- *
- * return - 0 (success)
+ * Return: 0 when function is called
  */
 
 int main(void)
