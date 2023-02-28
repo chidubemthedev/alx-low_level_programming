@@ -11,11 +11,12 @@ int _atoi(char *s)
 {
 	int x;
 
+	x = (int) *s;
+
 	if (!x)
 	{
 		return (0);
 	}
 
-	x = (int) s;
 	return (x);
 }
