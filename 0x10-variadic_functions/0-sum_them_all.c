@@ -3,6 +3,7 @@
 
 /**
  * sum_them_all - variadic function to add all arguments
+ *
  * @n: number of arguments
  *
  * Return: sum of all arguments
@@ -11,7 +12,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int sum;
+	int sum = 0;
 	unsigned int i;
 	va_list list;
 
@@ -22,9 +23,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(list, n);
 
-	sum = 0;
-
-	for (i = 0, i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		sum = sum + va_arg(list, int);
 	}
